@@ -1,6 +1,6 @@
 {
   "name": "protoype",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A boilerplate template to show or hide boxes on checkbox toggle.",
   "main": "index.js",
   "scripts": {
