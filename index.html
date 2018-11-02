@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SandBox</title>
+
+
+    <!--BOOTSWATCH-->
+    <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="justify-content-center">
+            <h4 class="text-center">Click checkbox to show and hide box</h4>
+            <div class="row text-center pt-2 pb-1 justify-content-center form-group">                    
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="boxOneCheckBox" value="boxOne" onchange="boxOneToggle()"
+                        checked>
+                    <label class="custom-control-label" for="boxOneCheckBox">boxOne</label>
+                </div>
+                &emsp;
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="boxTwoCheckBox" value="boxTwo" onchange="boxTwoToggle()"
+                        checked>
+                    <label class="custom-control-label" for="boxTwoCheckBox">boxTwo</label>
+                </div>
+                &emsp;
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="boxThreeCheckBox" value="boxThree" onchange="boxThreeToggle()"
+                        checked>
+                    <label class="custom-control-label" for="boxThreeCheckBox">boxThree</label>
+                </div>
+                &emsp;
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="boxFourCheckBox" value="boxFour" onchange="boxFourToggle()"
+                        checked>
+                    <label class="custom-control-label" for="boxFourCheckBox">boxFour</label>
+                </div>
+                &emsp;
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="boxFiveCheckBox" value="boxFive" onchange="boxFiveToggle()"
+                        checked>
+                    <label class="custom-control-label" for="boxFiveCheckBox">boxFive</label>
+                </div>
+                &emsp;
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="boxSixCheckBox" value="boxSix" onchange="boxSixToggle()"
+                        checked>
+                    <label class="custom-control-label" for="boxSixCheckBox">boxSix</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+            <div class="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <div class="row">
+                    <div class="col-sm" id="boxOne">
+                        <button class="btn btn-secondary">One</button>
+                    </div>
+                    <div class="col-sm" id="boxTwo">
+                        <button class="btn btn-secondary">Two</button>
+                    </div>
+                    <div class="col-sm" id="boxThree">
+                        <button class="btn btn-secondary">Three</button>
+                    </div>
+                    <div class="col-sm" id="boxFour">
+                        <button class="btn btn-secondary">Four</button>
+                    </div>
+                    <div class="col-sm" id="boxFive">
+                        <button class="btn btn-secondary">Five</button>
+                    </div>
+                    <div class="col-sm" id="boxSix">
+                        <button class="btn btn-secondary">Six</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+        </div>
+    </div>
+
+    <!--BASE SCRIPT-->
+    <script src="index.js"></script>
+
+    <!--BOOTSTRAP-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+963DzO0rT7abK41JStQIAqVgRVzpbzo3smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ3stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
