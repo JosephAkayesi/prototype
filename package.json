@@ -1,0 +1,19 @@
+{
+  "name": "protoype",
+  "version": "1.0.0",
+  "description": "A boilerplate template to show or hide boxes on checkbox toggle.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephAkayesi/prototype.git"
+  },
+  "author": "Joseph Akayesi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JosephAkayesi/prototype/issues"
+  },
+  "homepage": "https://github.com/JosephAkayesi/prototype#readme"
+}
