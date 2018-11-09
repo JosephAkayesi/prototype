@@ -2,4 +2,61 @@
     height: 150px;
     width: 150px;
     margin: 10px 0px 10px 0px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.gl {
+    background-image: url('images/gl.jpg');
+    background-position: center;
+    background-size: cover;
+} 
+
+.payroll {
+    background-image: url('images/payroll.jpg');
+    background-position: center;
+    background-size: cover;
+}  
+
+.ar {
+    background-image: url('images/ar.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.ap {
+    background-image: url('images/ap.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.sc {
+    background-image: url('images/sc.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.hr {
+    background-image: url('images/hr.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.fa {
+    background-image: url('images/fa.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.cm {
+    background-image: url('images/cm.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.sm {
+    background-image: url('images/sm.jpg');
+    background-position: center;
+    background-size: cover;
 }

@@ -52,3 +52,30 @@ function boxSixToggle() {
         x.style.display = "none";
     }
 }
+
+function boxSevenToggle() {
+    var x = document.getElementById("boxSeven");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function boxEightToggle() {
+    var x = document.getElementById("boxEight");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function boxNineToggle() {
+    var x = document.getElementById("boxNine");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
